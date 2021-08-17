@@ -26,11 +26,11 @@ body {
 
 h1, h2 {
   font-family: 'Gabriela', serif;
-  color: #fff;
 }
 
-h1 {
+h1, h2 {
   font-size: 3.5em;
+  color: rgb(30, 255, 0);
   margin-bottom: 0;
 }
 
@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: overline;
 }
 
 @media only screen and (max-width: 1042px) {
